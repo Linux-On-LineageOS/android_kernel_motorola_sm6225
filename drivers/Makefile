@@ -202,3 +202,4 @@ obj-$(CONFIG_WATCHDOG_CPU_CTX)	+= watchdog_cpu_ctx/
 obj-$(CONFIG_WATCHDOGTEST)	+= watchdogtest/
 obj-y				+= backlight/
 obj-y				+= gud/
+obj-$(CONFIG_DRM_LINDROID_EVDI) += lindroid-drm/
